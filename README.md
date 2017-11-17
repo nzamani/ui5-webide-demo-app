@@ -29,14 +29,21 @@ As you can see, that works because paths (i.e. /sap/bc/ui2/app_index/ui5_app_inf
 # Local Build
 
 1. Clone repo and change directory
-    `git clone https://github.com/nzamani/ui5-webide-demo-app.git`
-    `cd ui5-webide-demo-app`
+
+	```
+    git clone https://github.com/nzamani/ui5-webide-demo-app.git
+    cd ui5-webide-demo-app
+	```
 
 1. Add SAP's NPM package registry (if you haven't already)
     - Local: `npm config set @sap:registry https://npm.sap.com`
 	- Global: `npm config --global set @sap:registry https://npm.sap.com`
 
 1. Install NPM Dependencies and build library
-    - `npm install`
-	- `grunt`
-	- check the dist folder
+
+    ```
+	npm install
+	grunt
+	```	
+
+	Check the dist folder
