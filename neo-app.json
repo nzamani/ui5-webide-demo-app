@@ -1,5 +1,4 @@
 {
-  "welcomeFile": "/webapp/index.html",
   "routes": [
     {
       "path": "/resources",
@@ -19,15 +18,14 @@
       },
       "description": "SAPUI5 Test Resources"
     },
-	{
-		"path": "/resources/nabi/sample/ui5lib",
-		"target": {
-			"type": "application",
-			"name": "nabisampleui5lib",
-			"entryPath": "/"
-		},
-		"description": "Nabi Sample UI5 Library"
-	}
-  ],
-  "sendWelcomeFileRedirect": true
+		{
+			"path": "/resources/nabi/sample/ui5lib",
+			"target": {
+				"type": "application",
+				"name": "ui5webidedemolib",
+				"entryPath": "/"
+			},
+			"description": "Nabi Sample UI5 Library"
+		}
+  ]
 }
